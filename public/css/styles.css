@@ -1,15 +1,51 @@
 body {
     color: #333333;
     font-family: arial;
-    max-width: 650px;
-    margin: 0 auto;
+    max-width: 850px;
+    margin: auto !important;
     padding: 0 16px;
-
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh
 }
 
+.box {
+    background-color: #f6f4d285 !important;
+}
+
+a {
+    color: #F19C79 !important;
+}
+
+.section {
+    height: 90vh;
+}
+
+.title {
+    color: #F19C79 !important;
+}
+
+.footer {
+    padding: 1rem 2rem !important;
+}
+
+header {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+#myImage {
+    margin: auto;
+    height: auto;
+    max-width: 20rem;
+}
+
+.button.is-primary {
+    background-color: #F19C79 !important;
+    margin: 10px;
+    float: right;
+}
+
+
+/*
 .main-content {
     flex-grow: 1;
 }
@@ -51,4 +87,4 @@ button {
     border: 1 px solid #4b4949;
     color: white;
     padding: 8px;
-}
+} */

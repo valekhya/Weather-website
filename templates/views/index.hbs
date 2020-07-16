@@ -1,9 +1,76 @@
 <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section tile is-ancestor">
+        <div class="tile is-ancestor">
+            <div class="tile is-4 is-vertical is-parent">
+                <div class="tile is-child box">
+                    {{>header}}
+                </div>
+                <div class="tile is-child box">
+                    <p class="title">Search Location</p>
+                    <form class="control">
+                        <input class="input" type="text" placeholder="Location">
+                        <button class="button is-primary" type="submit">Search</button>
+
+                    </form>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <div class="tile is-child box">
+                    <img id="main-image" src="../../public/img/seasons.gif" style="width: auto;">
+                    <p class="title" id="message-title"></p>
+                    <p id="message-1"></p>
+                    <p id="message-2"></p>
+                    <p id="message-3"></p>
+                    <p id="message-4"></p>
+                    <p id="message-5"></p>
+                    <p id="message-6"></p>
+                    <p>
+                        <img id="myImage" src="">
+                    </p>
+                </div>
+            </div>
+        </div>
+        {{!-- <div class="container main-content">
+            <h1 class="title">
+                {{>header}}
+            </h1>
+            <p>Use this site to get your weather!</p>
+
+            <form>
+                <input placeholder="Location">
+                <button>Search</button>
+            </form>
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+        </div> --}}
+    </section>
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
+
+
+{{!-- <!DOCTYPE html>
 
 <html>
 
 <head>
     <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/img/weather.png">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
@@ -27,4 +94,4 @@
     <script src="/js/app.js"></script>
 </body>
 
-</html>
+</html> --}}
