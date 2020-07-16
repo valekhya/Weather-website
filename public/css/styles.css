@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #F19C79 !important;
+    color: #f19c79 !important;
 }
 
 .section {
@@ -19,7 +19,7 @@ a {
 }
 
 .title {
-    color: #F19C79 !important;
+    color: #f19c79 !important;
 }
 
 .footer {
@@ -39,52 +39,30 @@ header {
 }
 
 .button.is-primary {
-    background-color: #F19C79 !important;
+    background-color: #f19c79 !important;
     margin: 10px;
     float: right;
 }
 
-
-/*
-.main-content {
-    flex-grow: 1;
+p {
+    font-size: 13px;
 }
 
-footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
-    margin-top: 16px;
-    padding: 16px 0;
+.about-tile {
+    overflow-y: scroll;
+    font-size: 14px;
 }
 
-header {
-    margin-top: 16px;
-    margin-bottom: 48px;
+::-webkit-scrollbar {
+    width: 12px;
 }
 
-h1 {
-    font-size: 64px;
-    margin-bottom: 16px;
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
-header a {
-    color: #888888;
-    margin-right: 16px;
-    text-decoration: none;
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
-
-.portrait {
-    width: 250px;
-}
-
-input {
-    border: 1px solid #cccccc;
-    padding: 8px;
-}
-
-button {
-    cursor: pointer;
-    border: 1 px solid #4b4949;
-    color: white;
-    padding: 8px;
-} */

@@ -3,7 +3,7 @@ console.log('Client side javascript file is loaded!')
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 
-// const messageTitle = document.querySelector('#message-title').src = "../img/seasons.gif"
+const messageTitle = document.querySelector('#message-title')
 const mainImage = document.querySelector('#main-image')
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
