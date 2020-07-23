@@ -1,9 +1,14 @@
+html {
+    overflow-y: hidden !important;
+}
+
 body {
     color: #333333;
     font-family: arial;
-    max-width: 850px;
+    max-width: 100wh;
     margin: auto !important;
     padding: 0 16px;
+    text-align: -webkit-center;
 }
 
 .box {
@@ -33,9 +38,9 @@ header {
 }
 
 #myImage {
-    margin: auto;
+    margin: 10px;
     height: auto;
-    max-width: 20rem;
+    max-width: 16rem;
 }
 
 .button.is-primary {
@@ -49,20 +54,16 @@ p {
 }
 
 .about-tile {
-    overflow-y: scroll;
     font-size: 14px;
 }
 
-::-webkit-scrollbar {
-    width: 12px;
+.error-msg {
+    color: #f19c79 !important;
+    margin: 3rem;
+    font-size: 60px;
+    font-weight: 500px;
 }
-
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+.about-text {
+margin: 4rem 0;
+padding: 12px;
 }

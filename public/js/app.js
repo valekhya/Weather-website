@@ -36,27 +36,27 @@ weatherForm.addEventListener('submit', (e) => {
 
                 if (-15 <= "" + data.forecast.current.temperature) {
                     messageImage.src = "../img/warm.gif"
-                    document.html.style.backgroundColor = "#97a6d1";
+                    document.body.style.backgroundColor = "#97a6d1";
                 }
                 if ("" + data.forecast.current.temperature >= -10) {
                     messageImage.src = "../img/snowy.gif"
-                    document.html.style.backgroundColor = "#c2d5ec";
+                    document.body.style.backgroundColor = "#c2d5ec";
                 }
                 if ("" + data.forecast.current.temperature >= 4) {
                     messageImage.src = "../img/cold-weather.gif"
-                    document.html.style.backgroundColor = "#324fdc26";
+                    document.body.style.backgroundColor = "#324fdc26";
                 }
                 if ("" + data.forecast.current.temperature >= 20) {
                     messageImage.src = "../img/sunny.gif"
-                    document.html.style.backgroundColor = "#eedab594";
+                    document.body.style.backgroundColor = "#eedab594";
                 }
                 if ("" + data.forecast.current.temperature >= 25) {
                     messageImage.src = "../img/warm.gif"
-                    document.html.style.backgroundColor = "#eeb5b594";
+                    document.body.style.backgroundColor = "#eeb5b594";
                 }
                 if ("" + data.forecast.current.temperature >= 30) {
                     messageImage.src = "../img/hot.gif"
-                    document.html.style.backgroundColor = "#d9656594";
+                    document.body.style.backgroundColor = "#d9656594";
                 }
                 console.log(data.forecast)
             }
